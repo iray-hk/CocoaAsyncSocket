@@ -16,7 +16,7 @@ let package = Package(
             targets: ["CocoaAsyncSocket"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/CocoaLumberjack/CocoaLumberjack.git", from: "3.6.0"),
+        .package(url: "https://github.com/iray-hk/CocoaLumberjack.git", from: "3.6.0"),
     ],
     targets: [
         .target(
